@@ -1,0 +1,25 @@
+/* Write your code here. */
+@media all (max-width: 576px), (min-width: 576px) {
+  .container {
+    background-color: #0f172a;
+    background-size: cover;
+    height: 100vh;
+  }
+  .heading {
+    color: #f8fafc;
+    text-align: center;
+    font-family: "roboto";
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .image {
+    height: 60px;
+    width: 60px;
+  }
+  .image-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+}
